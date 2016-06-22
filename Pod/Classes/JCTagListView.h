@@ -24,6 +24,7 @@ typedef void (^JCTagListViewBlock)(NSInteger index);
 @property (nonatomic, strong) NSMutableArray *selectedTags;
 
 @property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UIFont *font;
 
 - (void)setCompletionBlockWithSelected:(JCTagListViewBlock)completionBlock;
 
